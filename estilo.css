@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  flex-direction: column; /* agora os filhos ficam em coluna */
+  justify-content: flex-start; /* ou center se quiser centralizar vertical */
+  align-items: center;
+ 
+}
+
+#espacamento{
+    position: relative;
+     width: 400px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    bottom: 30px;
+display: none;
+}
+
+
+#busca{
+    position: relative;
+    left: 420px;
+    top: 200px;
+}
+
+#buscar{
+    position: relative;
+    left: 460px;
+    top: 200px;
+}
+
+
+.retangulo{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+    border-radius: 40px;
+     border: 5px solid black;
+     margin-bottom: 20px;
+}
+
+.texto{
+    position: relative;
+    top: 330px;
+    left: 10px;
+    width: 0px;
+ 
+}
+
+.valor{
+    position: relative;
+    top: 100px;
+    left: 340px;
+    width: 10px;
+}
+
+.quantidade{
+    position: relative;
+    bottom: 150px;
+    left: 280px;
+    width: 0px;
+}
+
+.tudo{
+    position: relative;
+    bottom: 210px;
+}
+
+#logo{
+    position: relative;
+    height: 180px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    bottom: 1px;
+    border-radius: 40px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+
+#ende{
+     position: relative;
+    height: 30px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    bottom: 120px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+#rrt{
+    position: relative;
+    left: 220px;
+    bottom: 120px;
+    text-align: left;
+    width: 150px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#nc{
+    position: relative;
+    left: 210px;
+    bottom: 120px;
+    text-align: left;
+    width: 180px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#imglogo{
+    position: relative;
+    top: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 40px;
+     border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.infor{
+    position: relative;
+    top: 200px;
+    left: 10px;
+    width: 300px;
+    height: 10px;
+ z-index: 3;
+}
+
+ #copiar{
+    position: relative;
+    background-color: black;
+    color: white;
+    border: solid black;
+    left: 260px;
+    cursor: pointer;
+    bottom: 400px;
+ }
