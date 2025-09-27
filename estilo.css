@@ -140,7 +140,8 @@ body {
     }
 
 #busca{
-   top: -17312px;
+    position: relative;
+   top: 672px;
     left: 20px;
     z-index: 9999;
     pointer-events: auto !important;
@@ -148,10 +149,9 @@ body {
 
 #buscar{
     position: relative;
-  top: -17312px;
+  top: 672px;
    left: 50px;
      z-index: 10000;
-     border-top-color: black;
     
     pointer-events: auto !important;
 }
@@ -208,8 +208,8 @@ width: 150px;
 }
 
  #copiar{
-     top: 650px;
-   left: 300px;
+     bottom: 40px;
+   left: 100px;
     z-index: 10000;
 
 
