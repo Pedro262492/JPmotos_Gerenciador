@@ -6,21 +6,14 @@ body {
  
 }
 
-#espacamento{
-    position: relative;
-     width: 400px;
-    height: 30px;
-    background-color: rgb(0, 0, 0);
-    opacity: 0;
-    bottom: 30px;
-display: none;
-}
+
 
 
 #busca{
     position: relative;
     left: 420px;
     top: 200px;
+    
 }
 
 #buscar{
@@ -142,10 +135,15 @@ display: none;
 
  @media(max-width:768px){
 
+    body{
+        overflow-x: hidden;
+    }
 
 #busca{
     top: 640px;
     left: 20px;
+    z-index: 9999;
+    pointer-events: auto !important;
 }
 
 #buscar{
