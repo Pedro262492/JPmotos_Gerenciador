@@ -30,7 +30,7 @@ body {
     background-color: gray;
     border-radius: 40px;
      border: 5px solid black;
-     margin-bottom: 20px;
+     margin-bottom: 80px;
 }
 
 .texto{
@@ -140,15 +140,20 @@ body {
     }
 
 #busca{
-    top: 640px;
+   top: -17312px;
     left: 20px;
     z-index: 9999;
     pointer-events: auto !important;
 }
 
 #buscar{
-   top: 640px;
-    left: 40px;
+    position: relative;
+  top: -17312px;
+   left: 50px;
+     z-index: 10000;
+     border-top-color: black;
+    
+    pointer-events: auto !important;
 }
 
 
@@ -203,9 +208,9 @@ width: 150px;
 }
 
  #copiar{
-     bottom: 12px;
-   left: 100px;
-    
+     top: 650px;
+   left: 300px;
+    z-index: 10000;
 
 
  }}
