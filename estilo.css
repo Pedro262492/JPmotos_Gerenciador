@@ -139,3 +139,74 @@ display: none;
     cursor: pointer;
     bottom: 400px;
  }
+
+ @media(max-width:768px){
+
+
+#busca{
+    top: 640px;
+    left: 20px;
+}
+
+#buscar{
+   top: 640px;
+    left: 40px;
+}
+
+
+.retangulo{
+  
+}
+
+.texto{
+    
+ 
+}
+
+.valor{
+    
+}
+
+.quantidade{
+bottom: 155px;
+right: 10px;
+}
+
+.tudo{
+   
+}
+
+#logo{
+    
+    
+}
+
+#ende{
+     
+
+}
+
+
+#rrt{
+
+}
+
+#nc{
+
+}
+
+#imglogo{
+    
+}
+
+.infor{
+
+}
+
+ #copiar{
+     bottom: 12px;
+   left: 100px;
+    
+
+
+ }}
