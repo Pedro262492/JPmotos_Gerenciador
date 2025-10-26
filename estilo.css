@@ -3,7 +3,7 @@ body {
   flex-direction: column; /* agora os filhos ficam em coluna */
   justify-content: flex-start; /* ou center se quiser centralizar vertical */
   align-items: center;
- 
+ background: solid black;
 }
 
 
@@ -20,6 +20,8 @@ body {
     position: relative;
     left: 460px;
     top: 200px;
+    background-color: black;
+    color: white;
 }
 
 
@@ -77,7 +79,7 @@ body {
     height: 30px;
     width: 400px;
     background-color: rgb(0, 0, 0);
-    bottom: 120px;
+    bottom: 150px;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -89,7 +91,7 @@ body {
 #rrt{
     position: relative;
     left: 220px;
-    bottom: 120px;
+    bottom: 140px;
     text-align: left;
     width: 150px;
      font-family: Arial, Helvetica, sans-serif;
@@ -98,7 +100,7 @@ body {
 #nc{
     position: relative;
     left: 210px;
-    bottom: 120px;
+    bottom: 140px;
     text-align: left;
     width: 180px;
      font-family: Arial, Helvetica, sans-serif;
@@ -121,6 +123,7 @@ body {
     width: 300px;
     height: 10px;
  z-index: 3;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
  #copiar{
@@ -141,7 +144,7 @@ body {
 
 #busca{
     position: relative;
-   top: 672px;
+   top: 692px;
     left: 20px;
     z-index: 9999;
     pointer-events: auto !important;
@@ -149,8 +152,8 @@ body {
 
 #buscar{
     position: relative;
-  top: 672px;
-   left: 50px;
+  top: 692px;
+   left: 31px;
      z-index: 10000;
     
     pointer-events: auto !important;
@@ -167,12 +170,13 @@ body {
 }
 
 .valor{
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .quantidade{
 bottom: 155px;
 right: 10px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .tudo{
@@ -204,12 +208,12 @@ width: 150px;
 }
 
 .infor{
-
+font-family: Arial, Helvetica, sans-serif;
 }
 
  #copiar{
-     bottom: 40px;
-   left: 100px;
+     bottom: 20px;
+   left: 150px;
     z-index: 10000;
 
 
