@@ -3,38 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gerenciador</title>
+    <title>Recibo Digital JPMotos</title>
     <link rel="stylesheet" href="estilo.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
 </head>
 <body>
 
 <div id = "tudot">
 
-<input id="busca" type="text" placeholder="Digite a placa">
 
-<button onclick="buscar()" id="buscar"><b>Buscar Placa</b></button>
 
- <div class="retangulo">
+ <div class="retangulo" id="retangulo">
 
-   
+   <img id="logo" src="WhatsApp Image 2025-09-26 at 20.21.56.jpeg">
 
-<div id="logo">
 
-<img src="WhatsApp Image 2025-09-26 at 20.21.56.jpeg" alt="logo" id="imglogo">
 
-<div id="rrt"><b>
 
-  <p>° REVISÃO GERAL</p>
-  <p>° REVISÃO BÁSICA</p>
-  <p>° TROCA DE ÓLEO</p>
 
-</b></div>
-
-<p id="nc">67 <b>99963-6328
-</b></p>
-
-<div id="ende"><b>RUA CABRAL, 775 - VILA INDUSTRIAL - DOURADOS-MS</b></div>
-</div>
 
 
 
@@ -42,61 +30,97 @@
 
 
 
-  <div class="infor" >
-
-        <h4>Informações</h4>
-
-        <input type="date" size="30"></textarea>
-<input type="text" size="30" placeholder="Nome do cliente"></textarea>
-<input type="text" size="30"  placeholder="Placa"></textarea>
-<input type= "text" size="30"  placeholder="Modelo da Moto"></textarea>
-<input type= "text" size="30"  value="km"></textarea>
-        </div>
-
-        <div class="texto" >
-
-            <h4>mercadorias</h4>
-
-<input type="text" size="30" placeholder="Troca de Oléo, Pisca, Etc..."></textarea>
-<input type="text" size="30"  ></textarea>
-<input type= "text" size="30" ></textarea>
-<input type="text" size="30" ></textarea>
-<input type="text" size="30"  ></textarea>
-<input type="text" size="30"  ></textarea>
-<input type="text" size="30"  ></textarea>
-<input type="text" size="30" ></textarea>
 
 
+<div class="informaçoes_cliente">
+        <h4>Dados do Cliente</h4>
 
-        </div>
 
-         <div class="valor">
-<h4>valor</h4>
-<input type="text" id="valor1" size="1" placeholder="1, 2, ..." oninput="somar()">
+<img id="img1" src="calendar-days.png">
+
+<img id="img1" src="user.png">
+<img id="img2" src="motorbike.png">
+<img id="img2" src="clock-12.png">
+
+<div id="input_cliente">
+        <input type="date" size="30" value="data"></textarea>
+<input type="text" size="30" placeholder="Cliente"></textarea>
+<input id="placa" type="text" size="30"  placeholder="Placa"></textarea>
+<input type= "text" size="30"  placeholder="Modelo"></textarea>
+<input id="km" type= "text" size="30"  value="Km"></textarea>
+</div>
+</div>
+
+
+<div class="informaçoes_adicionais">
+        <h4>Dados Adicionais</h4>
+
+
+<img id="img1" src="clock-12.png">
+<img id="img1" src="smartphone.png">
+<img id="img1" src="smile.png">
+
+<img id="img4" src="motorbike.png">
+<img id="img4" src="clock-12.png">
+
+<div id="input_adicionais">
+<input id="input_proximatroca" type="text" size="30" value="Proxima troca em" ></textarea>
+<input id="input_proximatroca" type= "text" size="30"  placeholder="Telefone"></textarea>
+<input id="input_proximatroca" type= "text" size="30"  value="Garantia de "></textarea>
+
+</div>
+</div>
+
+        <div class="serviços_realizados" >
+
+            <h4>Serviços Realizados</h4>
+
+<input id="input_serviços" type="text" size="30" ></textarea>
+<input id="input_serviços" type="text" size="30"  ></textarea>
+<input id="input_serviços" type= "text" size="30" ></textarea>
+<input id="input_serviços" type="text" size="30" ></textarea>
+<input id="input_serviços" type="text" size="30"  ></textarea>
+<input id="input_serviços" type="text" size="30"  ></textarea>
+<input id="input_serviços" type="text" size="30"  ></textarea>
+<input id="input_serviços" type="text" size="30" ></textarea>
+
+ <div class="valor">
+<input type="text" id="valor1" size="1" oninput="somar()">
 <input type="text" id="valor2" size="1"  oninput="somar()">
-<input type="text" id="valor3" size="1"  oninput="somar()">
-<input type="text" id="valor4" size="1"  oninput="somar()">
-<input type="text" id="valor5" size="1" oninput="somar()">
+<input  type="text" id="valor3" size="1"  oninput="somar()">
+<input  type="text" id="valor4" size="1"  oninput="somar()">
+<input  type="text" id="valor5" size="1" oninput="somar()">
 <input type="text" id="valor6" size="1"  oninput="somar()">
 <input type="text" id="valor7" size="1"  oninput="somar()">
-<input type="text" id="valor8" size="1"  oninput="somar()">
+<input  type="text" id="valor8" size="1"  oninput="somar()">
 
+     
 <!-- Campo do total -->
-<input id="valortotal" type="text" size="1" placeholder="total" readonly>
-        </div>
+<input id="valortotal" type="text" size="1" placeholder="total">
+
+       </div>
 
  <div class="quantidade">
-<h4>quant</h4>
 
 
-<input type="text" size="1" placeholder="1, 2,..."></textarea>
-<input type="text" size="1" ></textarea>
-<input type= "text" size="1" ></textarea>
-<input type="text" size="1" ></textarea>
-<input type="text" size="1" ></textarea>
-<input type="text" size="1" ></textarea>
-<input type="text" size="1" ></textarea>
-<input type="text" size="1" ></textarea>
+
+<input id="input_quantidade"  type="text" size="1" ></textarea>
+<input id="input_quantidade" type="text" size="1" ></textarea>
+<input id="input_quantidade" type= "text" size="1" ></textarea>
+<input id="input_quantidade" type="text" size="1" ></textarea>
+<input id="input_quantidade" type="text" size="1" ></textarea>
+<input id="input_quantidade" type="text" size="1" ></textarea>
+<input id="input_quantidade" type="text" size="1" ></textarea>
+<input id="input_quantidade" type="text" size="1" ></textarea>
+
+        </div>
+
+
+
+        </div>
+
+         </div>
+
 
         </div>
 
@@ -109,10 +133,21 @@
 
 </div>
 
-   
-<button onclick="copiar()" id="copiar"><b>Salvar</b></button>
+<div class="botoes_acoes">
 
+  <button id="pdf" onclick="gerarPDF()" >
+  <b> Baixar | Pdf</b>
+</button>
+   <input id="busca" type="text" placeholder="Digite a placa">
 
+<button onclick="buscar()" id="buscar">
+  <img id="lupa" src="search2.png">
+  </button>
+<button onclick="copiar()" id="copiar">
+  <img id="check" src="floppy-disk.png">
+  <b id="text_salvar">Salvar</b></button>
+
+</div>
 
 <script>
 function buscar() {
@@ -140,6 +175,12 @@ function buscar() {
     alert("Placa não encontrada!");
   }
 ;
+
+function gerarPDF() {
+  html2pdf().from(document.getElementById("retangulo"))
+  .save("recibo-jp-motos.pdf");
+}
+
 </script>
 
 </body>

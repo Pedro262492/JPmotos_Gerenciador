@@ -11,7 +11,7 @@ function somar() {
   const valor7 = Number(document.getElementById("valor7").value) || 0;
   const valor8 = Number(document.getElementById("valor8").value) || 0;
 
-  valortotal.value = valor1 + valor2 + valor3 + valor4 + valor5 + valor6 + valor7 + valor8;
+  valortotal.value = "R$ " + (valor1 + valor2 + valor3 + valor4 + valor5 + valor6 + valor7 + valor8);
 }
 
 // ----- FUNÇÃO PARA SALVAR TODOS OS RETÂNGULOS -----
