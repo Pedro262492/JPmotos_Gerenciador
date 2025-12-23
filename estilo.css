@@ -342,7 +342,7 @@ width: 70vh;
         width: 40vh;
         height: 150vh;
      
-        left: 1vh;
+        left: 2vh;
     }
 
     #logo{
@@ -380,7 +380,7 @@ width: 70vh;
 
 .quantidade{
     position: relative;
-    top: 24vh;
+    top: 25vh;
     right: 3vh;
 }
 
