@@ -336,6 +336,7 @@ width: 70vh;
 
 @media(max-width:768px){
 
+
     .retangulo{
         position: relative;
         width: 40vh;
@@ -455,5 +456,7 @@ width: 70vh;
     left: 29vh;
 top: -6vh;
 }
+
+
 
 }
