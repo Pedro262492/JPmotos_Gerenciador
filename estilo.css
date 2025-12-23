@@ -88,6 +88,16 @@ input[type="text"]{
     top: 6vh;
 }
 
+#img3{
+      position: relative;
+    display: flex;
+   margin-top: 3vh;
+    width: 3vh;
+    height: 12px;
+    left: 3%;
+    top: 1vh;
+}
+
 input[type="date"]::-webkit-calendar-picker-indicator{
 opacity: 0%;
 }
@@ -214,16 +224,7 @@ border-bottom: rgb(206, 206, 206) 1px solid;
     width: 60%;
 }
 
-#img3{
-      position: relative;
-    display: flex;
-   margin-top: 3vh;
-    width: 3vh;
-    height: 12px;
-    left: 3%;
-    top: 1vh;
-    opacity: 0%;
-}
+
 
 #img4{
       position: relative;
@@ -331,4 +332,128 @@ width: 70vh;
     position: relative;
     bottom: 50vh;
     
+}
+
+@media(max-width:768px){
+
+    .retangulo{
+        position: relative;
+        width: 40vh;
+        height: 150vh;
+     
+        left: 1vh;
+    }
+
+    #logo{
+        border-right: 15vh solid white;
+        height: 15vh;
+    }
+    
+#placa[type="text"]{
+        width: 40%;
+    }
+
+#input_cliente{
+    position: relative;
+    bottom: 16.5vh;
+    width: 40vh;
+}
+
+.serviços_realizados{
+    left: 0vh;
+    bottom: 28vh;
+    width: 100%;
+    height: 40vh;
+}
+
+#valortotal{
+    position: relative;
+    left: 2.7vh;
+    bottom: 37vh;
+   
+}
+
+#input_serviços[type="text"]{
+    width: 55%;
+}
+
+.quantidade{
+    position: relative;
+    top: 24vh;
+    right: 3vh;
+}
+
+.valor{
+    position: relative;
+    top: 12vh;
+    right: 2vh;
+}
+
+
+#km[type="text"]{
+    width: 30%;
+
+}
+
+.informaçoes_adicionais{
+    bottom: 31vh;
+    left: 21vh;
+    width: 45%;
+    height: 21.5vh;
+}
+
+.informaçoes_cliente{
+    bottom: 2.2vh ;
+    width: 50%;
+}
+
+.nao{
+    display: none;
+}
+
+#valor8{
+    display: none;
+}
+
+#valor7{
+    display: none;
+}
+
+#img3{
+    display: none;
+}
+
+#input_adicionais{
+    bottom: 7vh;
+    left: 0vh;
+    width: 100%;
+}
+
+#input_proximatroca{
+    width: 98%;
+    left: 0vh;
+    background: transparent;
+}
+
+#busca{
+    left: 0vh;
+    bottom: 5vh;
+}
+
+#buscar{
+    left: 15.5vh;
+    bottom: 9vh;
+}
+
+#copiar{
+    left: 0vh;
+    bottom: 21vh;
+}
+
+#pdf{
+    position: relative;
+    left: 29vh;
+top: -6vh;
+}
+
 }
